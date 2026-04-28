@@ -1,5 +1,7 @@
 package com.projectmanager.ProjectMannage.domain.entity;
 import com.projectmanager.ProjectMannage.model.ProjectStatus;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -13,14 +15,14 @@ import java.util.Objects;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
+@Table
 
 public class Project {
-
     private String id;
     private String name;
     private String description;
     private LocalDate initial_date;
     private LocalDate final_date;
     private ProjectStatus status;
-
 }
