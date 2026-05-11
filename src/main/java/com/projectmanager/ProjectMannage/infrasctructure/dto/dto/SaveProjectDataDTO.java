@@ -1,4 +1,4 @@
-package com.projectmanager.ProjectMannage.infrasctructure.dto;
+package com.projectmanager.ProjectMannage.infrasctructure.dto.dto;
 
 import lombok.Data;
 import java.time.LocalDate;

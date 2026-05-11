@@ -1,7 +1,7 @@
 package com.projectmanager.ProjectMannage.applicationservice;
 
 import com.projectmanager.ProjectMannage.domain.entity.Project;
-import com.projectmanager.ProjectMannage.infrasctructure.dto.SaveProjectDataDTO;
+import com.projectmanager.ProjectMannage.infrasctructure.dto.dto.SaveProjectDataDTO;
 import com.projectmanager.ProjectMannage.model.ProjectStatus;
 import com.projectmanager.ProjectMannage.repository.ProjectRepository;
 import jakarta.transaction.Transactional;
