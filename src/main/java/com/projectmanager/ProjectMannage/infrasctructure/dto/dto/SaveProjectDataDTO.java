@@ -6,7 +6,7 @@ import java.time.LocalDate;
 public class SaveProjectDataDTO {
     private final String name;
     private final String description;
-    private final LocalDate initialData;
+    private final LocalDate initialDate;
     private final LocalDate finalDate;
     private final String status;
 }

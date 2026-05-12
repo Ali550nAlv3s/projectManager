@@ -21,7 +21,7 @@ public class ProjectService {
             .builder()
             .name(saveProjectDataDTO.getName())
             .description(saveProjectDataDTO.getDescription())
-            .initialDate(saveProjectDataDTO.getInitialData())
+            .initialDate(saveProjectDataDTO.getInitialDate())
             .finalDate(saveProjectDataDTO.getFinalDate())
             .status(ProjectStatus.PEDDING)
             .build();
