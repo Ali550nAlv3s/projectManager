@@ -32,7 +32,6 @@ public class ProjectService {
         projectRepository.save(project);
         log.info("Project created: {}", project);
         return project;
-
     }
 }
 
